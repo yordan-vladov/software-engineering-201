@@ -16,7 +16,7 @@ mkdir git-branch-exercise && cd git-branch-exercise
 git init
 ```
 
-3. Създайте `index.hmtl` файл със следното съдържание:
+3. Създайте `index.html` файл със следното съдържание:
 
 ```html
 <!DOCTYPE html>
@@ -101,7 +101,7 @@ git checkout -b add-footer
 
 8. В `add-footer` клонът, добавете футър в `index.html`:
 
-```hmtl
+```html
 <footer>
     <p>&copy; 2024 My Website</p>
 </footer>
@@ -149,13 +149,13 @@ git commit -m "Resolved merge conflicts"
 
 1. **Създайте ново хранилище в GitHub** (без да го инициализирате с README).
 2. **Добавете URL-а** (заменете `<username>` и `<repository>` с вашето GitHub потребителско име и име на хранилище):
-   
+
 ```bash
 git remote add origin https://github.com/<username>/<repository>.git
 ```
 
 3. Изпратете клоновете към GitHub:
-   
+
 ```bash
 git push -u origin main
 git push origin add-navbar
