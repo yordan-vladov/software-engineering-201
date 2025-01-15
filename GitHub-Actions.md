@@ -90,9 +90,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Set PYTHONPATH to include src
-        run: echo "PYTHONPATH=$(pwd)/src" >> $GITHUB_ENV
-
       - name: Run tests
         run: |
           pytest --maxfail=1 --disable-warnings -q
