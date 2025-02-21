@@ -161,15 +161,8 @@ pip install pytest
 ```
 
 2. **Пуснете тестовете**:
-    - За всички тестове:
-   ```bash
-pytest
-```
-    - Само за интеграционните тестове:
-   ```bash
-pytest test_integration.py
-```
-    - Само за тестовете на модула за отстъпки:
-   ```bash
-pytest test_discount_module.py
+```bash
+pytest # all tests
+pytest test_integration.py # only integration tests
+pytest test_discount_module.py # only discount unit tests
 ```
